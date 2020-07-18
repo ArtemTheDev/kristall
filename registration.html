@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Регистрация</title>
+		<link href="css\login.css" rel = 'stylesheet'>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!--ICON-->
+		<link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
+		<link rel="manifest" href="img/icon/site.webmanifest">
+		<link rel="mask-icon" href="img/icon/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
+		
+	</head>
+
+	<body>
+		<div class = 'reg'>
+			<div class = 'reg_white'>
+				<div class = 'rg'>
+					<h4 class = 'Enter'>Регистрация</h4>
+
+					<form method="post">
+
+					<div class = 'inputDATA'>
+						<input type="text" placeholder="Введите имя" name = 'name'>
+					</div>
+
+					<div class = 'inputDATA'>
+						<input type="text" placeholder="Введите Фамилию" name = 'surname'>
+					</div>
+
+					<div class = 'inputDATA'>
+						<input type="text" placeholder="Введите ник" name = 'nick'>
+					</div>
+
+					<div class = 'inputDATA'>
+						<input type="text" placeholder="Введите свою эл. почту (Необязательно)" name = 'email'>
+					</div>
+
+					<div class = 'inputDATA'>
+						<input type="password" placeholder="Введите пароль" name = 'pass1'>
+					</div>
+
+					<div class = 'inputDATA'>
+						<input type="password" placeholder="Повторите пароль" name = 'pass2'>
+					</div>
+
+
+
+
+
+					<!--НАЧАЛО-->
+
+					<h2 class = 'select_status_text'>ты кто</h2>
+					<div class="rb_area">
+						<label class="input_rb">Эм чел
+							<input type="radio" name="rb" value = '1'>
+							<span class="custom_rb"></span>
+							<span class="inside"></span>
+						</label>
+
+						<label class="input_rb">Иди спать
+							<input type="radio" name="rb" value = '2'>
+							<span class="custom_rb"></span>
+							<span class="inside"></span>
+						</label>
+					</div>
+
+					<!--КОНЕЦ-->
+
+
+
+
+					<div class = 'input_btn'>
+						<input type="submit" value = 'Зарегестрироваться' name = 'done'>
+					</div>
+
+					<h5 class = 'nonREG'>Уже зарегистрированы?</h5>
+					<div class = 'input_btn'>
+						<input type="submit" value = 'Войти' name = 'enter'>
+					</div>
+
+				</form>
+
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

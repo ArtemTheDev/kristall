@@ -1,4 +1,4 @@
-body {	height:1000px;
+body {
 	background: linear-gradient(#1577ec, #a5cdff) fixed;
 }
 
@@ -78,6 +78,8 @@ body {	height:1000px;
 
 /**REGISTRATION**/
 .reg {
+	top: 100px;
+    margin-bottom: 100px;
 	position: absolute;
 	display: flex;
 	justify-content: center;

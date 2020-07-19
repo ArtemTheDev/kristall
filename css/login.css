@@ -1,17 +1,12 @@
-/** .bg {
+body { background-color:#4d9bf9 }
+.bg {
 	position:absolute;
 	width:100%;
 	height:100%;
 	background: linear-gradient(#1577ec, #a5cdff) fixed no-repeat;
 	top:0;
 	left:0;
-} **/
-
-body {
-	width:100%;
-	height:100%;
-	background: linear-gradient(#1577ec, #a5cdff) fixed no-repeat;
-}
+} 
 
 .signblock {
 	position: absolute;
@@ -85,8 +80,6 @@ body {
 
 /**REGISTRATION**/
 .reg {
-	top: 100px;
-    margin-bottom: 100px;
 	position: absolute;
 	display: flex;
 	justify-content: center;
@@ -193,3 +186,5 @@ body {
 		height:98.8%;
 	}
 }
+
+@media (max-width: 510px) { .bg { display:none; } }

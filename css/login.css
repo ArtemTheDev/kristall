@@ -20,9 +20,9 @@ body { background-color:#4d9bf9 }
 
 .sign_white {
 	width: 500px;
-	height: 400px;
 	background-color: white;
 	border-radius: 20px;
+	padding-bottom:20px;
 }
 
 .inputDATA {
@@ -113,9 +113,9 @@ body { background-color:#4d9bf9 }
 
 .reg_success {
 	width: 500px;
-	height:300px;
 	background-color: white;
 	border-radius: 20px;
+	padding-bottom:25px;
 }
 
 
@@ -187,4 +187,4 @@ body { background-color:#4d9bf9 }
 	}
 }
 
-@media (max-width: 510px) { .bg { display:none; } }
+@media (max-width: 510px) { .bg { display:none; } .reg { margin-top:100px; } }
